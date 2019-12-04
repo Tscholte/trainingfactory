@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block navinhoud %}
+    <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Trainings Aanbod</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Lid Worden<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Gedragsregels</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">lokatie & contact</a>
+    </li>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-4"><img src="../img/training.jpg" alt="kan de afbeelding niet vinden"></div>
+            <div class="col-4"><img src="../img/training2.jpg" alt="kan de afbeelding niet vinden"></div>
+            <div class="col-4"><img src="../img/training3.jpg" alt="kan de afbeelding niet vinden"></div>
+        </div>
+    </div>
+{% endblock %}
